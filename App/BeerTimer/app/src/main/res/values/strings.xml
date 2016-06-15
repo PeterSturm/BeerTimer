@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeerTimer</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_timer">Timer</string>
+    <string name="txt_bt">BeerTimer</string>
+    <string name="btnTimer">Timer</string>
+    <string name="btnSettings">Settings</string>
+    <string name="txt_name">Choose your username:</string>
+    <string name="btnStart">Start</string>
+    <string name="btnStop">Stop</string>
+    <string name="btnAgain">Again</string>
+    <string name="btnSave">Save</string>
+    <string name="btnOK">OK</string>
+    <string name="txt_senon">sensor on</string>
+    <string name="txt_senoff">sensor off</string>
+    <string name="title_activity_start">Login</string>
+    <string name="timer_default">00:00:000</string>
+    <string name="title_activity_intro">BeerTimer</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

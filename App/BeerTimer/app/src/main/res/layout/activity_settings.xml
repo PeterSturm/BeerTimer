@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="20dp"
+              android:paddingBottom="20dp"
+              android:background="@color/base">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor"
+            android:layout_weight="1.00"
+            android:textColor="@color/text_light"
+            android:textSize="20dp"/>
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensitivity"
+            android:textColor="@color/text_light"
+            android:textSize="18dp"/>
+        <SeekBar
+            android:id="@+id/seeker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:splitTrack="false"
+            android:max="20"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/text_light"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namefield"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+
+*
+{
+    margin:0px;
+    padding:0px;
+    background: #2A6AC9;
+}
+
+div#container
+{
+    width: 600px;
+    margin:auto;
+    color: #D0A600;
+
+}
+div#header
+{
+    width: 600px;
+    height: 60px;
+    color: #D0A600;
+
+}
+
+div#logo
+{
+    width: 53px;
+    height: 60px;
+    color: #D0A600;
+
+}
+
+div#middle
+{
+    padding-top: 5px;
+    color: #D0A600;
+}
+
+div#menu
+{
+    width: 150px;
+    padding-top: 5px;
+    color: #D0A600;
+    float:left;
+}
+
+div#content
+{
+    width: 450px;
+    color: #D0A600;
+    float: left;
+}
+
+.menu_button
+{
+    width: 150px;
+    height: 25px;
+    color: #3f958c;
+    font-weight: bold;
+    background: #0c2a60;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+div#bestusers
+{
+    width: 450px;
+    color: #D0A600;
+    display: none;
+    position: absolut;
+    left: 0px;
+    top: 0px;
+    z-index:0;
+    text-align: center;
+}
+
+div#besttimes
+{
+    width: 450px;
+    color: #D0A600;
+    display: block;
+    position: absolut;
+    left: 0px;
+    top: 0px;
+    z-index:0;
+    text-align: center;
+}
+
+.name
+{
+    width: 225px;
+    height: 20px;
+    vertical-align: middle;
+    float: left;
+}
+
+.time
+{
+    width: 225px;
+    height: 20px;
+    vertical-align: middle;
+    float: left;
+}
+
+#labels
+{
+    width: 450px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.label
+{
+    width: 225px;
+    heigth: 20px;
+    float: left;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.entry
+{
+    float: bottom;
+}

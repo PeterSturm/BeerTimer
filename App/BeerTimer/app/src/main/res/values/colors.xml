@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="base">#FF2A6AC9</color>
+    <color name="text_dark">#FF1AC6A4</color>
+    <color name="text_dark2">#FF00BD98</color>
+    <color name="btn_dark">#FF093D89</color>
+    <color name="text_light">#FF739FDF</color>
+    <color name="text_light2">#FF739FDF</color>
+    <color name="text_light3">#FF4B82D3</color>
+    <color name="text_timer">#FFD0A600</color>
+    <color name="text_sensor">#FFFF924B</color>
+
+</resources>
