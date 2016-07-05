@@ -6,10 +6,10 @@
  * Time: 12:04
  */
 
-	$db_host = "mysql3.000webhost.com";
-	$db_database = "a8055317_beertr";
-	$db_user = "a8055317_admin";
-	$db_pass = "sl01pingbeer";
+	$db_host = "mysql.hostinger.in";
+	$db_database = "u505374377_beert";
+	$db_user = "u505374377_admin";
+	$db_pass = "WZ45pYkjJOb";
 
 	$db = mysqli_connect($db_host, $db_user, $db_pass, $db_database);
 
