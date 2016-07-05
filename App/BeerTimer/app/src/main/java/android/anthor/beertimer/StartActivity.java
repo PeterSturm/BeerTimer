@@ -21,7 +21,7 @@ public class StartActivity extends Activity implements NetworkManager.NetworkMan
     private Button btnOK;
 
     private NetworkManager client = new NetworkManager(this);
-    private final String BASE_URL = "http://beertimer.site90.net/register.php?name=";
+    private final String BASE_URL = "http://beertimer.16mb.com/register.php?name=";
 
 
     @Override

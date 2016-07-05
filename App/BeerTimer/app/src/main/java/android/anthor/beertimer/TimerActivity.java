@@ -32,7 +32,7 @@ public class TimerActivity extends Activity implements NetworkManager.NetworkMan
     private boolean isStarted;
 
     private NetworkManager client = new NetworkManager(this);
-    private final String BASE_URL = "http://beertimer.site90.net/addscore.php?name=";
+    private final String BASE_URL = "http://beertimer.16mb.com/addscore.php?name=";
 
     private SensorManager sensormanager;
     private Sensor accelerometer;
